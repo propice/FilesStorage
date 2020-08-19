@@ -1,0 +1,25 @@
+body{
+  background:#DCDCDC;
+}
+
+.container{
+  margin-left: 20px;
+  border:2px solid green;
+  padding:50px 10px 50px 50px;
+  background: white;
+}
+#overview{
+  font-size: 40px;
+}
+.selection{
+  float: left;
+}
+hr{
+  border:2px solid gray;
+}
+.login-right{
+  margin-left: 50px;
+}
+.form-text{
+  font-size:15px;
+}

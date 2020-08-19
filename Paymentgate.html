@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment gate page</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="Payment.css">
+</head>
+<body>
+  <span id="overview"> Saling Lesson in the Bay</span>
+  <div class="container">
+    <span>Billing & Credit Card Information</span><br>
+     <span id=" info">let's get you trip' in!Complete the form below to confirm your spot(s) </span>
+    <div class="row">
+     
+     <div class=" col-md-4  login-left"> 
+       <form class="group-form" action="validation.html" method="post">
+         <div>
+         <label for inputFirstname>First name</label>
+         <input type="First name" class="form-control" id="inputFirstname" aria-describedby="helpFname">
+         <small id="helpFname" class="form-text text-muted">As it appears on the credit cards</small>
+         </div><br>
+         <div>
+         <label for inputLastname>Last Name</label>
+         <input type="Last name" class=" form-control" id="inputLastname" aria-describedby="helpLname">
+         <small id=" helpLname" class="form-text text-muted">As it appears on the credit card</small>
+         </div><br>
+         <div>
+           <label for inputemail> </label>
+           <input type="Email" class="form-control" id=" inputemail" aria-describedby="helpemail">
+           <small id="helpemail" class="form-text text-muted">Where should we sent your trip confirmation </small>
+         </div><br>
+         <div>
+         <label for inputPhoneNum>Phone </label>
+         <input type="Phone" class=" form-control" id=" inputPhoneNum" aria-describedy="helpline">
+         <small id="helpline" class="form-text text-muted">In case email stops working.How can we reach you? </small>
+         </div><br>
+        </form>
+     </div>
+     <div class="login-right "> 
+       <form class="form-group" action="validation.html" method="post">
+         <div>
+         <label for InputCreditCard>Credit card</label>
+         <input type="Credit card" class=" form-control" id="InputCreditCard" aria-describedby="helpuser">
+         <small id="helpuser" class="form-text text-muted">Please Enter your credit card Number</small>
+         </div><br>
+         <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for ExpiryDate1>Expiration</label>
+            <select class="custom-select" id="ExpiryDate" required>
+             <option selected desabled value="">1-Jan </option>
+              <option>jan</option>
+              <option>feb</option>
+             <option >mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+           <option>Oct </option>
+            <option>Nov</option>
+            <option>Dec</option>
+            </select>
+           </div>
+        <div class="col-md-3 mb-3"> 
+       <label for ExpiryDate2> Date </label>
+       <select class="custom-select" id="ExpiryDate2" required>
+       <option selected disabled value="">2015</option>
+           <option>2015</option>
+           <option>2016 </option>
+           <option>2017 </option>
+           <option>2018 </option>
+           <option>2019</option>
+           <option> 2020</option>
+           <option>2021 </option>
+       </select>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for ThreeDigit>CVV</label>
+          <input type="cvv" class="form-control " id="ThreeDigit" placeholder="123" required>
+        </div>
+         </div><br>
+
+         <div class="form-group">
+           <label for states>Country </label>
+           <select class=" custom-select" id="states">
+             <option select desabled value="">Country</option>
+             <option>Gabon</option>
+             <option>United Staten of America </option>
+            <option>Ghana</option>
+            <option>South Africa</option>
+             </select>
+             </div><br>
+             <div class="form-group"> 
+             <label for ZipCode>Zip Code/Postal Code</label>
+             <input type="ZipCode" class=" form-control" id="ZipCode" aria-describedby="ZipcodeHelp" required>
+             <small id=" ZipcodeHelp"  class="form-text text-muted">Credit card's zip code/Post code.</small>
+             </div>
+
+    </div>
+    
+  </div>
+  <hr>
+  </div>
+
+</body>
+</html>
